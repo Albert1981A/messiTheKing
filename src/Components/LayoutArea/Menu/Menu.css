@@ -1,6 +1,17 @@
-.MenuA {
-    color: darkslategray;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+.Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
 }
+.MenuA {
+    color:ghostwhite;
+    font-weight: bold;
+    font-family: Garamond;
+    font-size: xx-large;
+}
+
+
 
