@@ -1,6 +1,9 @@
+import BestClub from "../BestClub/BestClub";
 import Clubs from "../Clubs/Clubs";
 import Goals from "../Goals/Goals";
 import Sales from "../Sales/Sales";
+import Sponsor from "../Sponsor/Sponsor";
+import TheBest from "../TheBest/TheBest";
 import Total from "../Total/Total";
 import Workout from "../Workout/Workout";
 import "./Main.css";
@@ -29,10 +32,17 @@ function Main(): JSX.Element {
             <Sales category="Soccer shoes" percent={20}/>
             <Sales percent={10}/>
 
+            {/* Events - onClick */}
+            <TheBest/>
+
+            {/* Events - onClick */}
+            <BestClub/>
+
+            {/* Events - onClick */}
+            <Sponsor/>
+
         </div>
     );
 }
 
 export default Main;
-
-// 1:40

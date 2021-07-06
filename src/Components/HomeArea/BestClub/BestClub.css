@@ -1,6 +1,5 @@
-.Box3 > div.area1 > button{
-    font-size: x-large;
+.BestClub > button {
+	font-size: x-large;
 	border-radius: 15px 15px 15px 15px;
     color: #000000;
-} 
-
+}

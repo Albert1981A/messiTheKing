@@ -1,10 +1,10 @@
 import "./Flag.css";
-import flagImage from "../../../Assets/images/flag.png"
+import flagImage from "../../../Assets/images/newFlag.jpg"
 
 function Flag(): JSX.Element {
     return (
         <div className="Flag">
-			<img src={flagImage} alt="Flag Image" />
+			<img id="newFlag" src={flagImage} alt="Flag Image" />
         </div>
     );
 }
