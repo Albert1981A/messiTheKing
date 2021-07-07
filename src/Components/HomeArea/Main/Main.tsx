@@ -1,7 +1,9 @@
 import BestClub from "../BestClub/BestClub";
+import Clock from "../Clock/Clock";
 import Clubs from "../Clubs/Clubs";
 import Goals from "../Goals/Goals";
 import Sales from "../Sales/Sales";
+import Search from "../Search/Search";
 import Sponsor from "../Sponsor/Sponsor";
 import TheBest from "../TheBest/TheBest";
 import Total from "../Total/Total";
@@ -40,6 +42,12 @@ function Main(): JSX.Element {
 
             {/* Events - onClick */}
             <Sponsor/>
+
+            {/* Two way Binding */}
+            <Search/>
+
+            {/* Lifecycle Hooks of a component */}
+            <Clock/>
 
         </div>
     );
